@@ -1,6 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
 
+
 /*
 	Verti by HTML5 UP
 	html5up.net | @ajlkn
@@ -199,8 +200,8 @@ input, select, textarea {
 	}
 	
 	ul.resume {
-		margin: 1em 0 1em 0;
-		line-height: 1.2em;
+		margin: 1em 0 1.75em 0;
+		line-height: 1.5em;
 	}
 
 	article.resume h3, h4 {
@@ -210,13 +211,15 @@ input, select, textarea {
 
 	article.resume h2 {
 		font-size: 2.25em;
-		margin: 0.75em 0 0.75em 0;
+		margin: 1.5em 0 0.75em 0;
 		line-height: 1em;
 	}
 
 	.nameplate {
 		text-align: center;
+		margin: 0.5em 0 0em 0;
 	}
+
 	/*CJO-end*/
 
 /* Container */
@@ -1500,6 +1503,10 @@ input, select, textarea {
 		margin-bottom: 5em;
 	}
 
+	section, article .courses{
+		margin-bottom: 2em;
+	}
+
 	section > :last-child,
 	article > :last-child,
 	section:last-child,
@@ -1819,6 +1826,9 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+	
+	
+	
 
 /* Box */
 
