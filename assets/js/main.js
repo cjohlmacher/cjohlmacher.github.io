@@ -60,5 +60,8 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
+			
+		// Footer
+		$('#footer-wrapper').load('common/footer.html');
 
 })(jQuery);
