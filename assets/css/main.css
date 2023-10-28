@@ -1877,6 +1877,7 @@ input, select, textarea {
 		text-decoration: none;
 		position: relative;
 		text-decoration: none;
+		align-self: center;
 	}
 
 		.icon:before {
@@ -1905,7 +1906,15 @@ input, select, textarea {
 		}
 
 		.icon.brands.fa-linkedin {
+			font-size: 2.5em;
+			margin-right: 12px;
 			background-image: url("images/LI-In-Bug.png");
+		}
+
+		i.fa-envelope {
+			font-size: 1.5em;
+			margin-left: 5.5px;
+			margin-right: 16.5px;
 		}
 
 		.icon > .label {
@@ -1933,7 +1942,8 @@ input, select, textarea {
 	}
 
 		.widget.contact ul li {
-			display: inline-block;
+			display: flex;
+			align-items: center;
 			margin-right: 0.25em;
 			padding-left: 0;
 		}
@@ -1955,18 +1965,30 @@ input, select, textarea {
 				background: #222222;
 			}
 
-				.widget.contact ul li a:before {
+				.widget.contact ul a {
+					text-decoration: none;
+				}
+
+				.widget.contact ul a:before {
 					color: #f3f3f3;
 					font-size: 1.5em;
 					line-height: inherit;
 				}
 
-				.widget.contact ul li a:hover {
-					background: #444444;
+				.widget.contact ul li {
+					-moz-transition: background-color .25s ease-in-out;
+					-webkit-transition: background-color .25s ease-in-out;
+					-ms-transition: background-color .25s ease-in-out;
+					transition: background-color .25s ease-in-out;
+					color: #444;
 				}
 
-				.widget.contact ul li a:active {
-					background: #666666;
+				.widget.contact ul li:hover {
+					color: #6E6E6E;
+				}
+
+				.widget.contact ul li:active {
+					color: #666666;
 				}
 
 /* Wrappers */

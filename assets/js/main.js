@@ -62,6 +62,6 @@
 				});
 			
 		// Footer
-		$('#footer-wrapper').load('common/footer.html');
+		$('#footer-wraper').load('common/footer.html');
 
 })(jQuery);
