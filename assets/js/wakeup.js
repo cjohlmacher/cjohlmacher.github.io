@@ -13,7 +13,7 @@ externalUrls.forEach(url => {
   if (url) {
     fetch(url)
       .catch(error => {
-        console.error('Expected error during spinup process: ', error);
+        console.error('This is an expected error during spinup process: ', error);
       });;
   }
 })
