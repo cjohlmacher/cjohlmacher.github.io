@@ -220,6 +220,12 @@ input, select, textarea {
 		margin: 0.5em 0 0em 0;
 	}
 
+	.resume-item-header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
 	/*CJO-end*/
 
 /* Container */
@@ -1906,12 +1912,18 @@ input, select, textarea {
 		}
 
 		.icon.brands.fa-linkedin {
-			font-size: 2.5em;
+			font-size: 2em;
 			margin-right: 12px;
 			background-image: url("images/LI-In-Bug.png");
 		}
 
 		i.fa-envelope {
+			font-size: 1.5em;
+			margin-left: 5.5px;
+			margin-right: 16.5px;
+		}
+
+		i.fa-github {
 			font-size: 1.5em;
 			margin-left: 5.5px;
 			margin-right: 16.5px;
